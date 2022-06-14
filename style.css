@@ -1,0 +1,22 @@
+.btn-info{
+    font-size:40px;
+    color:crimson ;
+    border-radius: 30px;
+}
+.btn-info:hover{
+    background-color: rgb(244, 29, 165);
+}
+.btn-warning:hover
+{
+    background-color: red;
+    font-size: 35px;
+}
+canvas{
+    animation-name:example ;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 398px rgb(0, 187, 255);}
+}
